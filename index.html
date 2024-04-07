@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img src="multimedia/cyberpunk.gif" alt="cyberpunk image" id="cyber">
+            <div class="left-side-tittle">
+                <img src="multimedia/152099.svg" id="cat">
+                <p id="left-tittle">By Shuuty</p>
+            </div>
+        </div>
+        
+        <div class="right-side">
+            <div id="right-text-container">
+                <p id="right-text">This is not a real online service! It's just a simple project I did while studying at <a href="https://www.theodinproject.com/">The odin Project!</a></p>
+            </div>
+            <form>
+                <legend>Sign Up!</legend>
+                <div class="form-container">
+                    
+                    <div class="first-column">
+                        <div class="input-container">
+                            <label for="first-name" id="first-name-label">First Name</label>
+                            <input type="text" minlength="3" maxlength="15" id="first-name" name="first-name" required>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" minlength="3" maxlength="15" id="last-name" name="last-name">
+                        </div>
+                    </div>
+
+                    <div class="second-column">
+                        <div class="input-container">
+                            <label for="user-email">Email</label>
+                            <input type="email" id="user-email" name="user-email" required>
+                        </div>
+                    
+                        <div class="input-container">
+                            <label for="user-phone-number">Phone number</label>
+                            <input type="tel" id="user-phone-number" name="user-phone-number">
+                        </div>
+                    </div>
+
+                    <div class="third-column">
+                        <div class="input-container">
+                            <label for="user-password">Password</label>
+                            <input type="password" minlength="7" maxlength="15" id="user-password" name="user-password"required>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="user-password-confirm">Confirm Password</label>
+                            <input type="password" minlength="7" maxlength="15" id="user-password-confirm" name="user-password-confirm" required>
+                        </div>
+                    </div>
+
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+
+            <h4 class="log-in">Already have an account?  <a href="index.html">Log In</a></h4>
+        </div>
+    </div>    
+</body>
+</html>

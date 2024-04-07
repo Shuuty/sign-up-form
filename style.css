@@ -1,0 +1,159 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Orbitron";
+}
+
+.container {
+    display: flex;
+}
+
+/* Left Side */
+
+.left-side {
+    display: flex;
+    height: 100%;
+    width: 548px;
+}
+
+.left-side-tittle {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    opacity: 0.7;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;  
+}
+
+#left-tittle {
+    color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    margin-left: 220px;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+img {
+    position: absolute;
+}
+
+#cyber {
+    z-index: -1;
+    height: 100%;
+    flex-grow: 1;
+}
+
+#cat {
+    z-index: 2;
+    height: 10%;
+    color: azure;
+    margin-left: 150px
+
+}
+
+/* Right Side */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 974px;
+    background-color: rgb(24, 0, 31);
+}
+
+#right-text {
+    z-index: 4;
+    width: 240px;
+    font-size: 15px;
+    color: rgb(167, 255, 255);
+}
+
+
+#right-text-containers{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 294px;
+}
+
+.log-in {
+    margin-bottom: 100px;
+    color: rgb(167, 255, 255);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid rgb(167, 255, 255);
+    padding: 15px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-column, .second-column, .third-column {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    margin: 15px;
+    border: 0;
+    color: rgb(167, 255, 255);
+    border-bottom: 3px solid rgb(167, 255, 255);
+    background-color: rgb(24, 0, 31);
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: rgb(167, 255, 255);
+    font-weight: bold;
+}
+
+a {
+    color: rgb(255, 209, 253);
+}
+
+button[type="submit"] {
+    background-color: rgb(24, 0, 31);
+    border: 1px solid rgb(167, 255, 255);
+    color: rgb(167, 255, 255);
+}
+
+legend {
+    color: rgb(167, 255, 255);
+    position: absolute;
+    right: 43%;
+    top: 49%;
+    background-color: rgb(24, 0, 31);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
