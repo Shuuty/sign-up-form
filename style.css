@@ -40,7 +40,7 @@ body {
     height: 100%;
     z-index: 2;
     margin-left: 220px;
-    font-size: 30px;
+    font-size: 3rem;
     margin-top: 70px;
 }
 
@@ -77,7 +77,7 @@ img {
 #right-text {
     z-index: 4;
     width: 240px;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: rgb(167, 255, 255);
 }
 
@@ -142,10 +142,11 @@ button[type="submit"] {
 }
 
 legend {
+    font-size: 1.5rem;
     color: rgb(167, 255, 255);
     position: absolute;
-    right: 43%;
-    top: 49%;
+    right: 39%;
+    top: 54%;
     background-color: rgb(24, 0, 31);
 }
 
